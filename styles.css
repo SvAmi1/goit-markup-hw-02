@@ -58,6 +58,10 @@ ul {
 	color: var(--pressed-state);
 }
 
+.current {
+	color: var(--pressed-state);
+}
+
 .address a {
 	font-style: normal;
 	color: var(--text);
@@ -80,7 +84,6 @@ ul {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 60px;
-	text-align: center;
 	color: white;
 }
 
@@ -152,6 +155,7 @@ ul {
 	letter-spacing: 0.04em;
 	color: var(--primary-brand);
 	background-color: var(--light);
+	cursor: pointer;
 }
 
 .buttons:hover,
